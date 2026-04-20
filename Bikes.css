@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+/* .main-1{
+    display: flex;
+} */
+
+
+.nav-container {
+    height: 60px;
+    background-color: #131921;
+    margin: 0;
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    gap: 19px;
+}
+
+
+.logo img {
+    height: 60px;
+}
+
+.input-group {
+    margin: 20px 0;
+    position: relative;
+    bottom: 20px;
+
+}
+
+.input-group label {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    font-size: 16px;
+    pointer-events: none;
+    /* color: #f3f3f3; */
+    padding: 0 5px;
+    transition: .5s;
+}
+
+.input-group input {
+    width: 800px;
+    height: 60px;
+    font-size: 16px;
+    padding: 0 15px;
+    border: 1.2px solid #f3f3f3;
+    /* background: transparent; */
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: 0;
+    /* background: #010031; */
+    font-size: 18px;
+}
+
+.input-group {
+    margin: 20px 0;
+    position: relative;
+
+}
+
+.input-group label {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    font-size: 16px;
+    pointer-events: none;
+    /* color: rgb(218, 223, 223); */
+    padding: 0 5px;
+    transition: .5s;
+}
+
+.input-group input {
+    width: 500px;
+    height: 60px;
+    /* color: #fff; */
+    font-size: 16px;
+    padding: 0 15px;
+    border: 1.2px solid rgb(220, 223, 223);
+    /* background: transparent; */
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: 0;
+    background: #010031;
+    color: white;
+    font-size: 14px;
+}
+
+.input-group .search {
+    position: absolute;
+    height: 62px;
+}
+
+.navindia {
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+
+.navindia button {
+    font-size: 2.5rem;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    padding: 12px 22px;
+    position: relative;
+    bottom: 85px;
+    left: 350px;
+    color: white;
+    background: transparent;
+}
+
+.cart-count {
+    font-size: 1.3rem;
+    position: absolute;
+    top: -12px;
+    left: 390px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.bike-container {
+    display: flex;
+    gap: 38px;
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 30vw;
+    background-color: white
+}
+
+.image img {
+     /* width: 635px;  */
+     height: 300px;
+}
+
+.about {
+    width: 45vw;
+    /* background-color: yellow; */
+}
+
+.about span {
+    word-break: break-word;
+    letter-spacing: 0;
+    font-size: 1.7rem;
+}
+
+.about a {
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+    color: #1c89e3;
+    font-size: 1.2rem;
+}
+
+.about a:hover {
+    text-decoration: underline;
+    color: #010031;
+}
+
+.about .line {
+    position: relative;
+    top: 14px;
+    width: 100%;
+    height: 0.1%;
+    color: white;
+    background-color: #C1C1C1;
+}
+
+.line2{
+    margin-top: 15px;
+}
+
+.price {
+    position: relative;
+    top: 30px;
+    font-size: 2rem;
+}
+
+
+.price .pricesspan{
+    font-size: 2rem;
+}
+
+.price span {
+    font-size: 1.1rem;
+}
+
+.offers {
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.offer-cart {
+    line-height: 1.4;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.bank-offers {
+    padding: 12px 12px;
+    height: 100px;
+    width: 150px;
+    background: transparent;
+    border: 1px solid #C1C1C1;
+    box-shadow: 0 0 4px #C1C1C1;
+}
+
+.cashback {
+    padding: 12px 12px;
+    height: 100px;
+    width: 160px;
+    background: transparent;
+    border: 1px solid #C1C1C1;
+    box-shadow: 0 0 4px #C1C1C1;
+}
+
+.emi{
+    padding: 12px 20px;
+    height: 100px;
+    width: 155px;
+    background: transparent;
+    border: 1px solid #C1C1C1;
+    box-shadow: 0 0 4px #C1C1C1;
+}
+
+.small-img-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* background-color: red; */
+    width: 10%;
+    height: 10%;
+}
+
+.small-image{
+    object-fit: contain;
+}
+
+
+
+.delivery {
+    width: 22vw;
+    /* background-color: green; */
+}
+
+.delivery-content{
+    line-height: 1.6;
+    position: relative;
+    left: 25px;
+    padding: 20px 12px;
+    height: 100%; 
+    width: 80%;
+    border: 1px solid #C1C1C1;
+    box-shadow: 0 0 4px #C1C1C1;
+}
+
+.delivery-price{
+    font-size: 1.8rem;
+}
+
+
+
+.green{
+    color: #0b7b3c;
+    font-weight: 700;
+}
+
+.a-tag{
+    text-decoration: none;
+    color: #1c89e3;
+}
+
+.a-tag:hover {
+    text-decoration: underline;
+    color: #010031;
+}
+
+.seller{
+    display: flex;
+    gap: 45px;
+}
+.Payment{
+    display: flex;
+    gap: 38px;
+}
+
+.checbox{
+    margin-top: 35px;
+}
+.checbox input{
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.a-position{
+    position: relative;
+    bottom: 2px;
+}
+
+.position{
+    position: relative;
+    left: 40px;
+}
+
+
+.quantity-box {
+    width: 90%;
+  position: relative;
+  top: 15px;
+  left: 10px;
+  font-family: Arial;
+}
+
+.selected {
+    border-radius: 10px;
+  border: 1px solid #aaa;
+  padding: 10px;
+  cursor: pointer;
+  background: #f3f3f3;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #aaa;
+  position: absolute;
+  top: 100%;        /* 👈 neeche open hoga */
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background: white;
+  display: none;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.options li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.options li:hover {
+  background: #f0f0f0;
+}
+
+.buttons{
+    position: relative;
+    top: 35px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.add_cart_btn{
+    font-size: 1.02rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 18px;
+    background-color: #ffd814;
+}
+
+.remove_cart_btn{
+    font-size: 1.02rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 18px;
+    background-color: #FF6200;
+}
+
+.watch-list{
+    position: relative;
+    top: 48px;
+}
+
+.watch-list input{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 92%;
+    padding: 10px 10px;
+}
+
+.show {
+  display: block;
+}
+
+
+.show-none{
+    display: none;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+

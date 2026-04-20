@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Cushion, Covers", "price": 99, "image": "images/Product1.jpg"
+    },
+    {
+        "name":"Cleaning Supplies", "price": 49, "image": "images/Product2.jpg"
+    },
+    {
+        "name":"Bathroom acceseries", "price": 299, "image": "images/Product3.jpg"
+    },
+    {
+        "name":"Home tools", "price": 199, "image": "images/Product4.jpg"
+    },
+    {
+        "name":"Walllpapers", "price": 599, "image": "images/Product5.jpg"
+    },
+    {
+        "name":"Refrigirators", "price": 9999, "image": "images/Product6.jpg"
+    },
+    {
+        "name":"Bags", "price": 199, "image": "images/Product7.jpg"
+    },
+    {
+        "name":"Beauty Products", "price": 1499, "image": "images/Product8.jpg"
+    },
+    {
+        "name":"Car toys", "price": 4999, "image": "images/Product9.jpg"
+    },
+    {
+        "name":"Beds", "price": 9999, "image": "images/Product10.jpg"
+    }
+]
